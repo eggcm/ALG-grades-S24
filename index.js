@@ -37,7 +37,7 @@ function display() {
     Mid: ${data[id].Mid}
     Fin: ${data[id].Fin}
     Sem: ${data[id].Sem}
-    The grade is determined by the following rule: (H1+H2+H3+H4)/4*0.4+SQRT(H2)*10*0.25+SQRT(I2)*10*0.35
+    The grade is determined by the following rule: (H1+H2+H3+H4+H5)/5*0.4+SQRT(H2)*10*0.25+SQRT(I2)*10*0.35
     Note that the highest grade of this course is 99. If your final grade is large than 99, then you will get 99 at most.
     `;
     p.innerText = display;
