@@ -2,7 +2,7 @@ let data = {}
 const p = document.getElementById('display-grade');
 
 
-Papa.parse("./ALG-grades-F23-int.csv", {
+Papa.parse("./ALG-grades-S24-U.csv", {
 	download: true,
     encoding: "utf-8",
     complete: function(results) {
@@ -33,6 +33,7 @@ function display() {
     H2: ${data[id].H2}
     H3: ${data[id].H3}
     H4: ${data[id].H4}
+    H5: ${data[id].H5}
     Mid: ${data[id].Mid}
     Fin: ${data[id].Fin}
     Sem: ${data[id].Sem}
